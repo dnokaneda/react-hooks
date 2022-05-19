@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ExampleOne from './examples/exampleOne';
+import ExampleTwo from './examples/exampleTwo';
+import ExampleThree from './examples/exampleThree';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>React Hooks: useRef</h3>
+      <ExampleOne />
+      <hr />
+      <ExampleTwo />
+      <hr />
+      <ExampleThree />
+      <hr />
     </div>
   );
 }
